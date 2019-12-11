@@ -1,0 +1,27 @@
+{
+  "name": "test-work",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass ./src/style/style.scss ./src/style/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pushpenderthakur/test-work.git"
+  },
+  "author": "pushpender",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pushpenderthakur/test-work/issues"
+  },
+  "homepage": "https://github.com/pushpenderthakur/test-work#readme",
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.12.0",
+    "node-sass": "^4.13.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "slick-carousel": "^1.8.1"
+  }
+}
